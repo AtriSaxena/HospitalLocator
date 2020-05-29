@@ -1,0 +1,305 @@
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hi
+
+## intent:goodbye
+- Bye
+- Bye!
+- Goodbye
+- See you later
+- Bye bot
+- Goodbye friend
+- bye
+- bye for now
+- catch you later
+- gotta go
+- See you
+- goodnight
+- have a nice day
+- i'm off
+- see you later alligator
+- we'll speak soon
+
+
+## intent: inform
+- [Port Blair](city)
+- [Hyderabad](city)
+- [Nampally](city)
+- [Secunderabad](city)
+- [Kadapa](city)
+- [Kurnool](city)
+- [Rajahmundry](city)
+- [Vijayawada](city)
+- [Visakhapatnam](city)
+- [Daporijo](city)
+- [Itanagar](city)
+- [Tawang](city)
+- [Barpeta](city)
+- [Dibrugarh](city)
+- [Ghungoor](city)
+- [Guwahati](city)
+- [Jorhat](city)
+- [Tezpur](city)
+- [Muzaffarpur](city)
+- [Darbhanga](city)
+- [Gaya](city)
+- [Patna](city)
+- [Chandigarh](city)
+- [Mohali](city)
+- [Bhilai](city)
+- [Bilaspur](city)
+- [Jagdalpur](city)
+- [Raipur](city)
+- [Silvassa](city)
+- [Daman](city)
+- [Delhi](city)
+- [New Delhi](city)
+- [Goa](city)
+- [Panjim](city)
+- [Ahmedabad](city)
+- [Anand](city)
+- [Bharuch](city)
+- [Bhavnagar](city)
+- [Godhra](city)
+- [Jamnagar](city)
+- [karamsad](city)
+- [Rajkot](city)
+- [Sanand](city)
+- [Surat](city)
+- [Surendranagar](city)
+- [Vadodara](city)
+- [Agroha](city)
+- [Ambala](city)
+- [Bhiwani](city)
+- [Faridabad](city)
+- [Gurgaon](city)
+- [Fatehabad](city)
+- [Hisar](city)
+- [Jhajjar](city)
+- [Jind](city)
+- [Karnal](city)
+- [Kurukshetra](city)
+- [Mahendergarh](city)
+- [Narnaul](city)
+- [Palwal](city)
+- [Panchkula](city)
+- [Panipat](city)
+- [Rewari](city)
+- [Rohtak](city)
+- [Sirsa](city)
+- [Sonipat](city)
+- [Yamunanagar](city)
+- [Kangra](city)
+- [Shimla](city)
+- [Jammu](city)
+- [Srinagar](city)
+- [Hazaribagh](city)
+- [Jamshedpur](city)
+- [Ranchi](city)
+- [Bengaluru](city)
+- [Mangalore](city)
+- [Alappuzha](city)
+- [Cochin](city)
+- [Kannur](city)
+- [Karakonam](city)
+- [Kochi](city)
+- [Kolencherry](city)
+- [Kollam](city)
+- [Kottayam](city)
+- [Kozhikode](city)
+- [Modakkallur](city)
+- [Palakkad](city)
+- [Pathanamthitta](city)
+- [Perintalmanna](city)
+- [Thiruvalla](city)
+- [Thiruvananthapuram](city)
+- [Thrissur](city)
+- [Venjaramoodu](city)
+- [Kavaratti](city)
+- [Indore](city)
+- [Mumbai](city)
+- [Pune](city)
+- [Thane](city)
+- [Imphal](city)
+- [Manipur](city)
+- [Shillong](city)
+- [Aizawl](city)
+- [Kohima](city)
+- [Behrampur](city)
+- [Bhubaneswar](city)
+- [Burla](city)
+- [Cuttack](city)
+- [Rourkela](city)
+- [Gorimedu](city)
+- [Kalapet](city)
+- [Kudupakkam](city)
+- [Madagadipet](city)
+- [Pangoor](city)
+- [Pillaiyarkuppam](city)
+- [Puducherry](city)
+- [Amritsar](city)
+- [Hoshiarpur](city)
+- [Jalandhar](city)
+- [Ludhiana](city)
+- [Patiala](city)
+- [Ropar](city)
+- [Zirakpur](city)
+- [Ajmer](city)
+- [Jaipur](city)
+- [Jodhpur](city)
+- [Gangtok](city)
+- [Chennai](city)
+- [Kanyakumari](city)
+- [Salem](city)
+- [Vellore](city)
+- [Agartala](city)
+- [Agra](city)
+- [Ghaziabad](city)
+- [Greater Noida](city)
+- [Hathras](city)
+- [Kanpur](city)
+- [Lucknow](city)
+- [Meerut](city)
+- [Moradabad](city)
+- [Muzaffarnagar](city)
+- [Noida](city)
+- [Saharanpur](city)
+- [Varanasi](city)
+- [Dehradun](city)
+- [Haldwani](city)
+- [Rishikesh](city)
+- [Roorkee](city)
+- [Kolkata](city)
+- [Andaman and Nicobar Islands](state)
+- [Andhra Pradesh](state)
+- [Arunachal Pradesh](state)
+- [Assam](state)
+- [Bihar](state)
+- [Chandigarh](state)
+- [Chhattisgarh](state)
+- [Dadra & Nagar](state)
+- [Daman and Diu](state)
+- [Delhi](state)
+- [Goa](state)
+- [Gujarat](state)
+- [Haryana](state)
+- [Himachal Pradesh](state)
+- [Jammu and Kashmir](state)
+- [Jharkhand](state)
+- [Karnataka](state)
+- [Kerala](state)
+- [Lakshadweep](state)
+- [Madhya Pradesh](state)
+- [Maharashtra](state)
+- [Manipur](state)
+- [Meghalaya](state)
+- [Mizoram](state)
+- [Nagaland](state)
+- [Odisha](state)
+- [Puducherry](state)
+- [Punjab](state)
+- [Rajasthan](state)
+- [Sikkim](state)
+- [Tamil Nadu](state)
+- [Tripura](state)
+- [Uttar Pradesh](state)
+- [Uttarakhand](state)
+- [West Bengal](state)
+
+
+## intent: search_provider
+- I need a hospital in [Delhi](city)
+- Hospital in [Uttar Pradesh](state)
+- I need a [Private](facility_type) in [Lucknow](city)
+- Find me a [Public](facility_type) in [Noida](city)
+- Tell me some hospital in [Kerala](state)
+- Show me a [Public](facility_type) in [Gurgaon](city) city
+- I am hurt. I am need of a hospital in [Kanpur](city)
+
+
+## intent:out_of_scope
+- please help with my ice cream it's dripping
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- i want a non dripping ice cream
+- someone call the police i think the bot died
+- show me a picture of a chicken
+- neither
+- I want french cuisine
+- i am hungry
+- restaurant
+- can i be shown a gluten free restaurant
+- i don't care!!!!
+- i do not care how are you
+- again?
+- oh wait i gave you my work email address can i change it?
+- hang on let me find it
+- stop it, i do not care!!!
+- how come?
+- I changed my mind
+- what?
+- did i break you
+- that link doesn't work!
+- you already have that
+- this is a really frustrating experience
+- no stop
+- give me food
+- i want food
+- Can I ask you questions first?
+- is it a wasteland full of broken robot parts?
+- can we keep chatting?
+- talk to me
+- who is your favourite robot?
+- can you help me to build a bot
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:thanks
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
