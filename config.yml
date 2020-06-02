@@ -24,3 +24,4 @@ policies:
     max_history: 3
     epochs: 100
   - name: MappingPolicy
+  - name: "FormPolicy"

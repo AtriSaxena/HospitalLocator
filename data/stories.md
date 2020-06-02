@@ -7,15 +7,20 @@
 
 ## hospital search City Happy 
 * greet 
-  - utter_how_can_i_help
+  - find_facility_types
 * search_provider{"facility_type":"Private","city":"Lucknow"}
-  - action_facility_search
+  - find_hospitals_name
+  - form{"name":"find_hospitals_name"}
+  - form{"name":null}
+* inform{"facility_id" : 1}
+  - find_hospital_address
+  - utter_address
 * thanks
   - utter_goodbye
 
-## hospital search state city Happy
+<!-- ## hospital search state city Happy
 * greet
-  - utter_how_can_i_help
+  - find_facility_types
 * search_provider{"facility_type":"Public","state":"Uttar Pradesh"}
   - utter_ask_city
 * search_provider{"city":"Lucknow"}
@@ -25,7 +30,7 @@
 
 ## hospital search 
 * greet
-  - utter_how_can_i_help
+  - find_facility_types
 * search_provider{"facility_type":"Public"}
   - utter_ask_location
 * inform{"city":"Kanpur"}
@@ -35,9 +40,9 @@
 
 ## hospital search city happy
 * greet
-  - utter_how_can_i_help
+  - find_facility_types
 * search_provider{"city":"Pune"}
-  - utter_ask_facility
+  - find_facility_types
 * search_provider{"facility_type": "Public"}
   - action_facility_search
 * thanks
@@ -45,7 +50,7 @@
 
 ## hospital search state facility city happy
 * greet
-  - utter_how_can_i_help
+  - find_facility_types
 * search_provider{"state": "Kerala"}
   - utter_ask_city
 * search_provider{"city": "Pune"}
@@ -55,11 +60,11 @@
 
 ## hospital search facility city happy
 * greet 
-  - utter_how_can_i_help
+  - find_facility_types
 * search_provider{"facility_type": "Public"}
   - utter_ask_location
 * search_provider{"city":"Pune"}
-  - action_facility_search
+  - action_facility_search -->
 
 
 ## say goodbye
