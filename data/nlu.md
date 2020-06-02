@@ -15,6 +15,7 @@
 - hello is anybody there
 - hello robot
 - hi
+- hii
 
 ## intent:goodbye
 - Bye
@@ -34,8 +35,7 @@
 - see you later alligator
 - we'll speak soon
 
-
-## intent: inform
+## intent:inform
 - [Port Blair](city)
 - [Hyderabad](city)
 - [Nampally](city)
@@ -220,8 +220,7 @@
 - [Uttarakhand](state)
 - [West Bengal](state)
 
-
-## intent: search_provider
+## intent:search_provider
 - I need a hospital in [Delhi](city)
 - Hospital in [Uttar Pradesh](state)
 - I need a [Private](facility_type) in [Lucknow](city)
@@ -229,7 +228,6 @@
 - Tell me some hospital in [Kerala](state)
 - Show me a [Public](facility_type) in [Gurgaon](city) city
 - I am hurt. I am need of a hospital in [Kanpur](city)
-
 
 ## intent:out_of_scope
 - please help with my ice cream it's dripping
@@ -296,7 +294,6 @@
 - amazing, thanks
 - cool, thanks
 - cool thank you
-
 
 ## intent:bot_challenge
 - are you a bot?
