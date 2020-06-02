@@ -75,7 +75,7 @@ responses:
   - text: "Which type of Hospital you need Public/Private?"
 
   utter_address:
-  - text: "The address is {facility_address}."
+  - text: "The address {facility_address}."
   
 session_config:
   session_expiration_time: 60

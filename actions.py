@@ -49,6 +49,7 @@ class FindHospitalAddress(Action):
             #res = res +'\n'+ str(count)+ '.Name:' + name + '\n' + 'Address:' + address
             #address = "AIIMS Delhi Ansari Nagar, Aurobindo Marg, New Delhi,Phone- (011) 26588500, 26588700, 26589900"
             #dispatcher.utter_message("Here is the address of the {} Hospital: {}".format(len(data), res))
+            address = "of" + name + "is" + address
             return [SlotSet("facility_address", address)]
         else:
            # dispatcher.utter_message("Sorry I am not able to find Hospitals in your city. I am working on it to update my data knowledge.")
