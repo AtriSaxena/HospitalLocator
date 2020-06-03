@@ -49,7 +49,7 @@ class FindHospitalAddress(Action):
             #res = res +'\n'+ str(count)+ '.Name:' + name + '\n' + 'Address:' + address
             #address = "AIIMS Delhi Ansari Nagar, Aurobindo Marg, New Delhi,Phone- (011) 26588500, 26588700, 26589900"
             #dispatcher.utter_message("Here is the address of the {} Hospital: {}".format(len(data), res))
-            address = "of" + name + "is" + address
+            address = " of " + name + " is " + address
             return [SlotSet("facility_address", address)]
         else:
            # dispatcher.utter_message("Sorry I am not able to find Hospitals in your city. I am working on it to update my data knowledge.")
@@ -111,7 +111,7 @@ class FindHospitalNames(FormAction):
         url = 'https://indian-hospital.herokuapp.com/api/v1/hospitals/?'
         # if state != None:
         #     url = url +'state=' + state + '&'
-        url = url + 'city=' + city +'&' + "category=" + facility
+        url = url + 'city=' + city.title() +'&' + "category=" + facility.title()
         print(url)
         payload = {}
         headers= {}
@@ -120,7 +120,7 @@ class FindHospitalNames(FormAction):
         data = response.json()
         print(data)
         if len(data)==0: 
-            dispatcher.utter_message("Sorry, we could not find a {} Hospital in {}.".format(facility,city.title()))
+            dispatcher.utter_message("Sorry😔, I could not find a {} Hospital in {}. But Soon I will update my database.😊".format(facility,city.title()))
 
             return []
 
@@ -135,7 +135,7 @@ class FindHospitalNames(FormAction):
             message = "Here is a {} Hospital near you.".format(facility)
 
         else:
-            message = "Here are {} {}s near you:".format(len(buttons),facility)     
+            message = "Here are {} {}s Hospitals near you:".format(len(buttons),facility)     
         dispatcher.utter_button_message(message, buttons)
         
 
