@@ -44,10 +44,6 @@ responses:
   utter_greet:
   - text: "Hey! How are you?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
   utter_did_that_help:
   - text: "Did that help you?"
 
@@ -55,27 +51,32 @@ responses:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Your most welcome. Happy to help you. Bye.😊"
+  - text: "Happy to help you. Bye.😊"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a Medicare Locator bot created using Rasa. I can help you locate the hospital."
 
   utter_how_can_i_help:
-  - text: "Hello. I am a medicare locator. I can help you find nearset hospital. Please choose type of hospital facility:"
+  - text: "Hello. I am a medicare locator🚑. I can help you find nearset hospital. Please choose type of hospital facility:"
+  - text: "Hello. I am doing fine. I can help you find nearset hospital🏥. Please choose type of hospital facility:"
 
   utter_ask_location: 
   - text: "Can you provide your city/state please?"
   - text: "To find the nearest {facility_type} I need your address."
 
   utter_ask_city:
-  - text: "Can you provide your city name please?"
-  - text: "To find the nearest {facility_type} I need your city name."
+  - text: "Can you provide your city name please?🌍"
+  - text: "To find the nearest {facility_type} Hospital I need your city name.🌍"
 
   utter_ask_facility:
   - text: "Which type of Hospital you need Public/Private?"
 
   utter_address:
   - text: "The address {facility_address}."
+
+  utter_creator: 
+  - text: "My creator name is Atri Saxena. He is very talented and helping I think. He created me to help you. You can reach out to him on LinkedIn: https://www.linkedin.com/in/atrisaxena/"
   
 session_config:
   session_expiration_time: 60
