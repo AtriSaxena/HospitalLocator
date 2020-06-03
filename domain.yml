@@ -1,82 +1,77 @@
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - inform
-  - search_provider
-  - thanks
-
-entities:
-  - city
-  - state 
-  - facility_type
-  - facility_id
-
-
-
-slots: 
-  city:
-    type: text
-  state:
-    type: text 
-  facility_type:
-    type: text 
-  facility_id:
-    type: unfeaturized
-  address: 
-    type: unfeaturized
-  facility_address:
-    type: unfeaturized
-
-forms:
-  - find_hospitals_name
-
-actions:
-  - action_facility_search
-  - find_facility_types
-  - find_hospital_address
-
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-  utter_how_can_i_help:
-  - text: "Hello. I am a medicare locator. I can help you find nearset hospital. Please choose type of hospital facility:"
-
-  utter_ask_location: 
-  - text: "Can you provide your city/state please?"
-  - text: "To find the nearest {facility_type} I need your address."
-
-  utter_ask_city:
-  - text: "Can you provide your city name please?"
-  - text: "To find the nearest {facility_type} I need your city name."
-
-  utter_ask_facility:
-  - text: "Which type of Hospital you need Public/Private?"
-
-  utter_address:
-  - text: "The address {facility_address}."
-  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- bot_challenge
+- inform
+- search_provider
+- thanks
+- out_of_scope
+entities:
+- city
+- state
+- facility_type
+- facility_id
+slots:
+  address:
+    type: unfeaturized
+  city:
+    type: text
+  facility_address:
+    type: unfeaturized
+  facility_id:
+    type: unfeaturized
+  facility_type:
+    type: text
+  requested_slot:
+    type: unfeaturized
+  state:
+    type: text
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_how_can_i_help:
+  - text: 'Hello. I am a medicare locator. I can help you find nearset hospital. Please
+      choose type of hospital facility:'
+  utter_ask_location:
+  - text: Can you provide your city/state please?
+  - text: To find the nearest {facility_type} I need your address.
+  utter_ask_city:
+  - text: Can you provide your city name please?
+  - text: To find the nearest {facility_type} I need your city name.
+  utter_ask_facility:
+  - text: Which type of Hospital you need Public/Private?
+  utter_address:
+  - text: The address {facility_address}.
+actions:
+- find_facility_types
+- find_hospital_address
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_how_can_i_help
+- utter_ask_location
+- utter_ask_city
+- utter_ask_facility
+- utter_address
+forms:
+- find_hospitals_name
