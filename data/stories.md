@@ -147,3 +147,158 @@
     - slot{"city":"Meerut"}
     - form{"name":null}
     - slot{"requested_slot":null}
+
+## New Story
+
+* inform{"facility_type":"Public"}
+    - slot{"facility_type":"Public"}
+    - slot{"facility_type":"Public"}
+    - utter_ask_city
+* search_provider{"city":"kochi"}
+    - slot{"city":"kochi"}
+    - slot{"city":"kochi"}
+    - find_hospitals_name
+    - form{"name":"find_hospitals_name"}
+    - slot{"city":"kochi"}
+    - slot{"facility_type":"Public"}
+    - slot{"city":"kochi"}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+* inform{"facility_id":"701"}
+    - slot{"facility_id":"701"}
+    - slot{"facility_id":"701"}
+    - find_hospital_address
+    - slot{"facility_address":" of Sree Narayana Institute Of Medical Science is Chalakka, P.O. North Kuthiyathodu, Ernakulam Dist., Kerala, Phone- (0484) 2573023, 2573060"}
+    - utter_address
+* creator
+    - slot{"facility_type":"Public"}
+    - slot{"city":"kochi"}
+    - slot{"facility_id":"701"}
+    - utter_creator
+* greet
+    - find_facility_types
+* inform{"facility_type":"Private"}
+    - slot{"facility_type":"Private"}
+    - utter_ask_city
+* thanks
+    - utter_goodbye
+
+## New Story
+
+* search_provider
+    - find_facility_types
+* inform{"facility_type":"Private"}
+    - slot{"facility_type":"Private"}
+    - utter_ask_city
+* search_provider{"city":"delhi"}
+    - slot{"city":"delhi"}
+    - find_hospitals_name
+    - form{"name":"find_hospitals_name"}
+    - slot{"city":"delhi"}
+    - slot{"facility_type":"Private"}
+    - slot{"city":"delhi"}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+* inform{"facility_id":"80"}
+    - slot{"facility_id":"80"}
+    - find_hospital_address
+    - slot{"facility_address":" of Action Cancer Hospital is A - 4, Paschim Vihar, Delhi, Phone- (011) 49222220."}
+    - utter_address
+
+## New Story
+
+* out_of_scope
+    - utter_creator
+
+## New Story
+
+* search_provider{"city":"Lucknow"}
+    - slot{"city":"Lucknow"}
+    - slot{"city":"Lucknow"}
+    - find_facility_types
+* inform{"facility_type":"Private"}
+    - slot{"facility_type":"Private"}
+    - find_hospitals_name
+    - form{"name":"find_hospitals_name"}
+    - slot{"city":"Lucknow"}
+    - slot{"facility_type":"Private"}
+    - slot{"facility_type":"Private"}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+* inform{"facility_id":"995"}
+    - slot{"facility_id":"995"}
+    - find_hospital_address
+    - slot{"facility_address":" of Eye-Q Super Speciality Eye Hospitals, Aliganj is B-60, Sector-B, Aliganj, Lucknow, Uttar Pradesh, Phone- (0522) 4024306, 4101710, 2330739"}
+    - utter_address
+
+## New Story
+
+* inform{"facility_type":"Public"}
+    - slot{"facility_type":"Public"}
+    - utter_ask_city
+* search_provider{"city":"Pune"}
+    - slot{"city":"Pune"}
+    - find_hospitals_name
+    - form{"name":"find_hospitals_name"}
+    - slot{"city":"Pune"}
+    - slot{"facility_type":"Public"}
+    - slot{"city":"Pune"}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+* thanks
+    - utter_goodbye
+
+## New Story
+
+* search_provider{"city":"Pune"}
+    - slot{"city":"Pune"}
+    - slot{"city":"Pune"}
+    - find_facility_types
+* inform{"facility_type":"Public"}
+    - slot{"facility_type":"Public"}
+    - find_hospitals_name
+    - form{"name":"find_hospitals_name"}
+    - slot{"city":"Pune"}
+    - slot{"facility_type":"Public"}
+    - slot{"facility_type":"Public"}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+* thanks
+    - utter_goodbye
+
+## New Story
+
+* search_provider{"city":"meerut"}
+    - slot{"city":"meerut"}
+    - slot{"city":"meerut"}
+    - find_facility_types
+* inform{"facility_type":"Private"}
+    - slot{"facility_type":"Private"}
+    - slot{"city":"meerut"}
+    - slot{"facility_type":"Private"}
+    - find_hospitals_name
+    - form{"name":"find_hospitals_name"}
+    - slot{"city":"meerut"}
+    - slot{"facility_type":"Private"}
+    - slot{"facility_type":"Private"}
+    - form{"name":null}
+    - slot{"requested_slot":null}
+* inform{"facility_id":"999"}
+    - slot{"facility_id":"999"}
+    - slot{"facility_id":"999"}
+    - find_hospital_address
+    - slot{"facility_address":" of Metro Hospital And Heart Institute, Lal Kurti is 47/G-5,Lal Kurty,Boundry Road,Meerut, Uttar Pradesh, Phone- (0121) 2665033/041/044, Ambulance: 09837291010"}
+    - utter_address
+* deny
+    - slot{"city":"meerut"}
+    - slot{"facility_type":"Private"}
+    - slot{"facility_id":"999"}
+    - utter_happy
+* goodbye
+    - utter_goodbye
+
+## New Story
+
+* creator
+    - utter_creator
+    - find_facility_types
