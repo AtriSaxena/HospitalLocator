@@ -21,5 +21,5 @@ The user needs to provide the city to get the hospitals name and address.
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NaAf8gZYKF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/NaAf8gZYKF4/0.jpg)](http://www.youtube.com/watch?v=NaAf8gZYKF4 "Hospital Locator bot demo")
